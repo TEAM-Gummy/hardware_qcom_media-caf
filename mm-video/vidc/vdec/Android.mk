@@ -48,6 +48,8 @@ libOmxVdec-def += -D_ANDROID_ICS_
 libOmxVdec-def += -DUSE_ION
 #endif
 
+libOmxVdec-def += -fno-strict-aliasing
+
 # ---------------------------------------------------------------------------------
 # 			Make the Shared library (libOmxVdec)
 # ---------------------------------------------------------------------------------
